@@ -60,3 +60,12 @@
   filter:sepia(4) grayscale(3);
   border-radius:30px;
 }
+.ex-9-img{
+  transition-property:all;
+  transition-duration:4s;
+}
+.ex-9-img:hover{
+  filter:sepia(4) grayscale(3);
+  border-radius:30px;
+  transform: scale(1.5);
+}
