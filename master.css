@@ -52,3 +52,11 @@
 .ex-7-img:hover{
   filter: sepia(2);
 }
+.ex-8-img{
+  transition-property:all;
+  transition-duration:3s;
+}
+.ex-8-img:hover{
+  filter:sepia(4) grayscale(3);
+  border-radius:30px;
+}
